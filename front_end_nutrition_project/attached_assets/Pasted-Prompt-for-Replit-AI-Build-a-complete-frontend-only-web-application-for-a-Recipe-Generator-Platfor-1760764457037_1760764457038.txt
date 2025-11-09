@@ -1,0 +1,138 @@
+Prompt for Replit AI:
+
+Build a complete frontend-only web application for a Recipe Generator Platform using:
+
+React.js (for SPA)
+
+Tailwind CSS (for modern responsive styling)
+
+Chart.js (for future analytics visualizations)
+
+⚙️ No backend required — use only mock data where needed.
+
+📁 Folder & File Structure:
+
+/public
+  └── index.html
+/src
+  ├── index.js
+  ├── App.js
+  ├── App.css
+  ├── assets/
+  ├── components/
+  │   ├── Navbar.js
+  │   ├── OnboardingForm.js
+  │   ├── PantryManager.js
+  │   ├── MealPlanGenerator.js
+  │   ├── RecipeCard.js
+  │   ├── DashboardOverview.js
+  │   ├── AnalyticsPanel.js
+  │   └── VisualizationChart.js
+  ├── pages/
+  │   ├── HomePage.js
+  │   ├── DashboardPage.js
+  │   ├── PantryPage.js
+  │   ├── MealPlannerPage.js
+  │   ├── RecipesPage.js
+  │   └── AnalyticsPage.js
+  └── utils/
+      └── mockData.js
+
+
+🖥️ Pages & Features to Implement:
+
+Onboarding Page
+
+Form that captures:
+
+Dietary preferences (dropdown)
+
+Allergens (checkboxes)
+
+Nutrition goals (radio)
+
+Budget input
+
+Sustainability slider
+
+Pantry Manager
+
+Table of ingredients (name, quantity, expiry date)
+
+Add/edit/delete ingredients
+
+Expiry date auto-suggestions
+
+Show alerts for items nearing expiry
+
+Meal Planner
+
+"Generate Meal Plans" button
+
+Show 5–10 meal plans (use mock data)
+
+Each plan card shows:
+
+Nutrition breakdown
+
+Estimated cost
+
+CO2 impact
+
+Waste reduction score
+
+Dashboard
+
+Overview of:
+
+Active meal plan
+
+Pantry stats
+
+Expiring soon items
+
+Recipe Library
+
+Grid of recipe cards (mock recipes)
+
+Search + filter by diet/time
+
+Analytics Page
+
+Placeholder Chart.js area (Pareto front)
+
+Meal plan comparison table
+
+"Explainable AI" output section
+
+🎨 Styling & Responsiveness:
+
+Use Tailwind CSS for all UI.
+
+Make UI responsive (desktop + tablet).
+
+Keep code modular and clean.
+
+🔄 Integration:
+
+Add a Navbar to navigate between:
+
+Home
+
+Dashboard
+
+Pantry
+
+Meal Planner
+
+Recipes
+
+Analytics
+
+Use React Router for page navigation.
+
+Link all components to App.js.
+
+Use mock data from mockData.js.
+
+✅ Focus only on the frontend UI and interactions, no backend, no database. Comment components clearly.

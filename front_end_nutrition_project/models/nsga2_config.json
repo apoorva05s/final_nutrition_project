@@ -1,0 +1,15 @@
+{
+  "user_profile": "diabetic_eco_friendly",
+  "features_used": [
+    "protein_g_mean",
+    "carbs_g_mean",
+    "price_mean",
+    "Total_emissions_mean"
+  ],
+  "weights": [
+    0.3,
+    -0.6,
+    -0.2,
+    -0.3
+  ]
+}

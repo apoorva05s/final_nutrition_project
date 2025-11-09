@@ -1,0 +1,49 @@
+{
+  "global": {
+    "safe_count": 20130,
+    "total_recipes": 20130
+  },
+  "user_vegan_nuts_diabetes": {
+    "safe_count": 4183,
+    "total_recipes": 20130
+  },
+  "user_hypertension_warfarin": {
+    "safe_count": 5836,
+    "total_recipes": 20130
+  },
+  "ml_model": {
+    "trained": true,
+    "model_path": "D:\\Complete_Data\\ml_part_nutrition_project\\models\\safety_layer_rf.joblib",
+    "vectorizer_path": "D:\\Complete_Data\\ml_part_nutrition_project\\models\\safety_tfidf_vectorizer.joblib",
+    "accuracy": 0.9408842523596622,
+    "precision": 0.9544764795144158,
+    "recall": 0.7514934289127837,
+    "classification_report": {
+      "0": {
+        "precision": 0.9382239382239382,
+        "recall": 0.9905926622765757,
+        "f1-score": 0.9636973764490543,
+        "support": 3189.0
+      },
+      "1": {
+        "precision": 0.9544764795144158,
+        "recall": 0.7514934289127837,
+        "f1-score": 0.8409090909090909,
+        "support": 837.0
+      },
+      "accuracy": 0.9408842523596622,
+      "macro avg": {
+        "precision": 0.9463502088691771,
+        "recall": 0.8710430455946797,
+        "f1-score": 0.9023032336790726,
+        "support": 4026.0
+      },
+      "weighted avg": {
+        "precision": 0.9416028197589927,
+        "recall": 0.9408842523596622,
+        "f1-score": 0.9381698565789724,
+        "support": 4026.0
+      }
+    }
+  }
+}

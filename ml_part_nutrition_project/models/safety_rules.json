@@ -1,0 +1,228 @@
+{
+  "ALLERGENS": {
+    "nuts": [
+      "almond",
+      "walnut",
+      "cashew",
+      "peanut",
+      "hazelnut",
+      "pecan",
+      "pistachio",
+      "macadamia"
+    ],
+    "dairy": [
+      "milk",
+      "butter",
+      "cheese",
+      "cream",
+      "yogurt",
+      "ghee",
+      "buttermilk"
+    ],
+    "gluten": [
+      "wheat",
+      "barley",
+      "rye",
+      "flour",
+      "bread",
+      "pasta",
+      "semolina"
+    ],
+    "soy": [
+      "soy",
+      "soybean",
+      "tofu",
+      "soy sauce",
+      "miso"
+    ],
+    "egg": [
+      "egg",
+      "mayonnaise",
+      "meringue"
+    ],
+    "fish": [
+      "fish",
+      "salmon",
+      "tuna",
+      "cod",
+      "anchovy"
+    ],
+    "shellfish": [
+      "shrimp",
+      "prawn",
+      "crab",
+      "lobster",
+      "clam",
+      "oyster"
+    ],
+    "sesame": [
+      "sesame",
+      "tahini",
+      "sesame oil"
+    ],
+    "mustard": [
+      "mustard",
+      "mustard seed",
+      "mustard powder"
+    ]
+  },
+  "DIETS": {
+    "vegan": [
+      "milk",
+      "cheese",
+      "butter",
+      "meat",
+      "egg",
+      "fish",
+      "honey",
+      "yogurt",
+      "gelatin"
+    ],
+    "vegetarian": [
+      "meat",
+      "pork",
+      "beef",
+      "chicken"
+    ],
+    "keto": [
+      "rice",
+      "bread",
+      "sugar",
+      "pasta",
+      "potato",
+      "banana",
+      "corn"
+    ],
+    "paleo": [
+      "processed",
+      "bread",
+      "pasta",
+      "cereal",
+      "legumes"
+    ],
+    "low_fodmap": [
+      "garlic",
+      "onion",
+      "beans",
+      "lentils",
+      "apple",
+      "pear",
+      "mushroom"
+    ]
+  },
+  "HEALTH_RESTRICTIONS": {
+    "diabetes": [
+      "sugar",
+      "honey",
+      "syrup",
+      "soda",
+      "sweet",
+      "candy",
+      "cake",
+      "cookie",
+      "pastry",
+      "white rice",
+      "white bread",
+      "refined flour",
+      "white pasta",
+      "dessert",
+      "jam",
+      "jelly"
+    ],
+    "hypertension": [
+      "salt",
+      "sodium",
+      "soy sauce",
+      "pickles",
+      "canned",
+      "processed meat",
+      "ham",
+      "bacon",
+      "salami",
+      "sausage",
+      "instant noodles",
+      "bouillon"
+    ],
+    "celiac": [
+      "wheat",
+      "barley",
+      "rye",
+      "malt",
+      "triticale",
+      "bulgur",
+      "semolina",
+      "farina",
+      "graham",
+      "spelt",
+      "kamut",
+      "durum",
+      "flour"
+    ],
+    "pcos": [
+      "sugar",
+      "white bread",
+      "fried",
+      "processed snack",
+      "soda",
+      "refined carbs",
+      "trans fat",
+      "fast food"
+    ],
+    "kidney_disease": [
+      "potassium",
+      "banana",
+      "avocado",
+      "potato",
+      "tomato",
+      "spinach",
+      "orange",
+      "orange juice",
+      "dried fruit"
+    ],
+    "gout": [
+      "red meat",
+      "organ meat",
+      "liver",
+      "kidney",
+      "anchovy",
+      "sardine",
+      "mackerel",
+      "tuna",
+      "beer"
+    ],
+    "thyroid": [
+      "soy",
+      "broccoli",
+      "cabbage",
+      "cauliflower",
+      "kale",
+      "turnip",
+      "cassava"
+    ],
+    "gerd": [
+      "chocolate",
+      "mint",
+      "fried",
+      "spicy",
+      "tomato",
+      "citrus",
+      "onion",
+      "garlic",
+      "coffee",
+      "alcohol"
+    ]
+  },
+  "MEDICATION_RESTRICTIONS": {
+    "warfarin": [
+      "kale",
+      "spinach",
+      "broccoli",
+      "collard",
+      "parsley",
+      "cabbage"
+    ],
+    "metformin": [
+      "alcohol"
+    ]
+  }
+}

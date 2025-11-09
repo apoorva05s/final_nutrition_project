@@ -1,0 +1,15 @@
+plan_id,recipe_indices,recipes,total_emission,total_cost,total_protein
+1,"[10064, 12299, 11654]",stuffed baked potatoes with horseradish cream | mashed baked potatoes with chives | chicken with parsley and thyme stuffing and roasted potatoes,3.35,0.8891819741026805,39.850588235294126
+2,"[7294, 755, 3842]",smoked salmon smørrebrød | rockin' moroccan stew | spinach jewish style,7.1,1.68191044455115,42.427058823529414
+3,"[7294, 755, 3953]","smoked salmon smørrebrød | rockin' moroccan stew | pineapple, arugula, macadamia nut",4.2,2.748029070371774,42.427058823529414
+4,"[7294, 755, 5176]",smoked salmon smørrebrød | rockin' moroccan stew | roasted potatoes with sour cream and bacon,4.3,1.7391124354256744,42.427058823529414
+5,"[15233, 12716, 5949]","southeast asian squid salad | sweet, tart, and spicy shrimp and cucumber salad | chocolate linzertorte",0.6000000000000001,4.835022855708197,39.850588235294126
+6,"[12633, 755, 369]",baklava | rockin' moroccan stew | dried-fruit strudel with apricot preserves,4.1000000000000005,4.3032968143877905,42.427058823529414
+7,"[7294, 755, 4788]",smoked salmon smørrebrød | rockin' moroccan stew | miso soup with sweet potato dumplings,4.3,1.7391124354256744,42.427058823529414
+8,"[7294, 755, 3842]",smoked salmon smørrebrød | rockin' moroccan stew | spinach jewish style,7.1,1.68191044455115,42.427058823529414
+9,"[773, 13322, 11343]",to toast and skin hazelnuts | candied sweet potatoes | biddy's flapjacks,0.7,4.231000225072804,39.850588235294126
+10,"[8066, 12299, 11654]",herbed clam hash | mashed baked potatoes with chives | chicken with parsley and thyme stuffing and roasted potatoes,3.35,0.8891819741026805,39.850588235294126
+11,"[10066, 561, 11439]","seafood chowder with bacon and thyme | mashed potatoes with leeks and sour cream | iroquois stew with beef, chicken and pork",0.8999999999999999,0.9468534956681578,39.850588235294126
+12,"[2449, 755, 11277]",sweet-potato soup with nutmeg and maple syrup | rockin' moroccan stew | duck confit hash,4.3,1.7391124354256744,42.427058823529414
+13,"[8066, 12299, 11654]",herbed clam hash | mashed baked potatoes with chives | chicken with parsley and thyme stuffing and roasted potatoes,3.35,0.8891819741026805,39.850588235294126
+14,"[773, 13270, 11277]",to toast and skin hazelnuts | butternut squash & apple soup | duck confit hash,0.8,1.8980986090487804,39.850588235294126

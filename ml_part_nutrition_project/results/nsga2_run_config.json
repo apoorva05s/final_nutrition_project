@@ -1,0 +1,21 @@
+{
+  "base_dir": "D:\\Complete_Data\\ml_part_nutrition_project",
+  "loaded_from": "D:\\Complete_Data\\ml_part_nutrition_project\\processed_data\\recipes_final_for_optimization.csv",
+  "n_recipes": 20130,
+  "n_meals": 3,
+  "pop_size": 80,
+  "n_generations": 60,
+  "random_seed": 42,
+  "features_used": [
+    "energy_kcal_mean",
+    "protein_g_mean",
+    "fat_g_mean",
+    "carbs_g_mean",
+    "price_mean",
+    "Total_emissions_mean"
+  ],
+  "plans_csv": "D:\\Complete_Data\\ml_part_nutrition_project\\results\\optimized_meal_plans_global.csv",
+  "pareto_F": "D:\\Complete_Data\\ml_part_nutrition_project\\results\\pareto_F.npy",
+  "pareto_X": "D:\\Complete_Data\\ml_part_nutrition_project\\results\\pareto_X.npy",
+  "scaler": "D:\\Complete_Data\\ml_part_nutrition_project\\models\\nsga2_scaler.joblib"
+}

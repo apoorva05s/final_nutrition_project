@@ -1,0 +1,112 @@
+Objective
+
+You are responsible for building and delivering the backend APIs related to user management, authentication, and pantry operations.
+
+🧱 Your Responsibilities
+
+Build REST APIs for:
+
+User registration and login
+
+JWT-based authentication and authorization
+
+Pantry management (CRUD for items, inventory updates, etc.)
+
+Integrate with:
+
+The provided PostgreSQL database schema
+
+The provided ML model endpoints for smart recommendations or insights
+
+Deliverables
+
+Fully functional FastAPI backend with:
+
+Proper routes, controllers, and models
+
+JWT-based authentication and role protection
+
+Database integration using SQLAlchemy (or equivalent ORM)
+
+Clean, modular folder structure (e.g., routers/, models/, schemas/, utils/)
+
+Swagger or ReDoc auto-docs (/docs or /redoc endpoints)
+
+Expected Outputs
+
+/auth/register → create new users
+
+/auth/login → login and return JWT token
+
+/users/me → fetch authenticated user info
+
+/pantry/ → CRUD APIs for pantry items
+
+/pantry/recommendations → consume ML model endpoint for item suggestions
+
+🧰 Tech Stack
+
+Framework: FastAPI
+
+Database: PostgreSQL
+
+Authentication: JWT (JSON Web Tokens)
+
+ORM: SQLAlchemy / Pydantic models
+
+Environment: Python 3.10+
+
+Tools: Uvicorn (for dev server), dotenv for environment variables
+
+📦 Input You Receive
+
+Database schema (with tables like users, pantry_items, etc.)
+
+URLs or endpoints of ML models (e.g., recommendation or prediction APIs)
+
+🚀 What You Deliver
+
+A production-ready FastAPI backend with:
+
+Working authentication system
+
+CRUD pantry APIs
+
+Proper database integration
+
+Integration with ML endpoints
+
+Tested using Postman or FastAPI’s interactive docs
+
+🧩 Folder Structure Example
+project_root/
+│
+├── app/
+│   ├── main.py
+│   ├── models/
+│   │   └── user.py
+│   │   └── pantry.py
+│   ├── routers/
+│   │   └── auth.py
+│   │   └── pantry.py
+│   ├── schemas/
+│   │   └── user_schema.py
+│   │   └── pantry_schema.py
+│   ├── utils/
+│   │   └── jwt_handler.py
+│   │   └── db.py
+│   └── config/
+│       └── settings.py
+│
+├── requirements.txt
+└── README.md
+
+🧪 Testing / Validation
+
+Verify user registration and login work correctly
+
+Ensure JWT tokens protect pantry routes
+
+Validate connection to PostgreSQL
+
+Test ML model API calls return valid data

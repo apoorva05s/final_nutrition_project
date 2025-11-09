@@ -1,0 +1,17 @@
+{
+    "user_profile": "diabetic_eco_friendly",
+    "features_used": [
+        "protein_g_mean",
+        "carbs_g_mean",
+        "price_mean",
+        "Total_emissions_mean"
+    ],
+    "population_size": 80,
+    "generations": 30,
+    "weights": {
+        "carbs_g_mean": -0.6,
+        "protein_g_mean": 0.3,
+        "price_mean": -0.2,
+        "Total_emissions_mean": -0.3
+    }
+}

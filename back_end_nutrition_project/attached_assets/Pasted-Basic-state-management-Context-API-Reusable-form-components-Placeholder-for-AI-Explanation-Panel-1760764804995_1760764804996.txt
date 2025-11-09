@@ -1,0 +1,179 @@
+Basic state management (Context API)
+
+Reusable form components
+
+Placeholder for AI Explanation Panel
+
+Basic accessibility (a11y)
+
+Error boundaries for component safety
+
+✅ Final Full Frontend Plan (Enhanced Version)
+
+Prompt for Replit AI:
+
+Build a complete frontend-only web application for a Recipe Generator Platform using:
+
+React.js
+
+Tailwind CSS
+
+Chart.js (for visualizations)
+
+Use mock data only, no backend integration. The app should simulate all core features via UI interactions and local state.
+
+📁 Folder Structure:
+
+/public
+  └── index.html
+/src
+  ├── index.js
+  ├── App.js
+  ├── App.css
+  ├── assets/
+  ├── context/
+  │   └── UserContext.js
+  ├── components/
+  │   ├── Navbar.js
+  │   ├── ErrorBoundary.js
+  │   ├── Reusable/
+  │   │   ├── FormInput.js
+  │   │   ├── CheckboxGroup.js
+  │   │   └── SelectDropdown.js
+  │   ├── OnboardingForm.js
+  │   ├── PantryManager.js
+  │   ├── MealPlanGenerator.js
+  │   ├── RecipeCard.js
+  │   ├── DashboardOverview.js
+  │   ├── AnalyticsPanel.js
+  │   └── VisualizationChart.js
+  ├── pages/
+  │   ├── HomePage.js
+  │   ├── DashboardPage.js
+  │   ├── PantryPage.js
+  │   ├── MealPlannerPage.js
+  │   ├── RecipesPage.js
+  │   └── AnalyticsPage.js
+  └── utils/
+      └── mockData.js
+
+
+🧠 Features & Components:
+
+1. Onboarding Page
+
+Reusable form components (FormInput, CheckboxGroup, SelectDropdown)
+
+Collect:
+
+Dietary preferences
+
+Allergen list
+
+Nutritional goals
+
+Budget
+
+Sustainability slider
+
+Save data in UserContext
+
+2. Pantry Manager
+
+Form to add/edit/delete ingredients
+
+Auto-suggest expiry date
+
+Table of inventory with expiration alerts
+
+Track pantry data in UserContext
+
+3. Meal Plan Generator
+
+"Generate Meal Plans" button (simulated)
+
+Show 5–10 mock meal plans with:
+
+Nutrition (macro breakdown)
+
+Estimated cost
+
+Carbon footprint
+
+Waste reduction %
+
+Use Chart.js to visualize trade-offs (e.g., Pareto front bubble chart)
+
+4. Dashboard
+
+Overview of:
+
+Active meal plan
+
+Pantry stats
+
+Items near expiry
+
+Quick links to pages
+
+5. Recipe Library
+
+Searchable + filterable recipe cards (diet, cook time, tags)
+
+Load mock recipes
+
+6. Analytics Page
+
+Chart.js visualizations (cost vs. nutrition vs. sustainability)
+
+Meal plan comparison table
+
+Explainable AI Panel (text explaining “Why this plan” — mock placeholder)
+
+🎨 Styling & UX:
+
+Use Tailwind CSS for all styling
+
+Responsive layout (desktop + tablet)
+
+Accessibility:
+
+Use semantic HTML elements
+
+Keyboard navigable forms
+
+Labels associated with inputs
+
+🔄 Integration & Routing:
+
+Use React Router for navigation between:
+
+Home
+
+Dashboard
+
+Pantry
+
+Meal Planner
+
+Recipes
+
+Analytics
+
+Include Navbar with active link styles
+
+Wrap app in ErrorBoundary component for crash protection
+
+🧩 State Management (Context API):
+
+Store user preferences, pantry items, and selected meal plan in a global UserContext
+
+Use useContext across components for consistency
+
+📝 Other Notes:
+
+Mock data to be placed in mockData.js
+
+Use clear component comments
+
+Use PropTypes if needed for type-checking
